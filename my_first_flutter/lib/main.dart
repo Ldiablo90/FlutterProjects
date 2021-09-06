@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_flutter/screen/firstpage.dart';
-import 'package:my_first_flutter/screen/fourpage.dart';
 import 'package:my_first_flutter/screen/secondpage.dart';
 import 'package:my_first_flutter/screen/therdpage.dart';
 import 'package:my_first_flutter/widget/bottom_bar.dart';
@@ -23,7 +22,7 @@ class _MyAppState extends State<MyApp> {
           primaryColor: Colors.black,
           accentColor: Colors.white),
       home: DefaultTabController(
-        length: 4,
+        length: 3,
         child: Scaffold(
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
@@ -32,11 +31,10 @@ class _MyAppState extends State<MyApp> {
               FirstPage(),
               SecondPage(),
               TherdPage(),
-              FourPage()
             ],
           ),
-          bottomNavigationBar: Bottom(),
 
+          bottomNavigationBar: Bottom(),
         ),
       ),
     );

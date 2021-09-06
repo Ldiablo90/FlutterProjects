@@ -14,19 +14,15 @@ class Bottom extends StatelessWidget {
           tabs: <Widget>[
             Tab(
               icon: Icon(Icons.looks_one_outlined, size: 18),
-              child: Text('FIRST', style: TextStyle(fontSize: 9)),
+              child: Text('맞고', style: TextStyle(fontSize: 9)),
             ),
             Tab(
               icon: Icon(Icons.looks_two_outlined, size: 18),
-              child: Text('SECOND', style: TextStyle(fontSize: 9)),
+              child: Text('고스톱', style: TextStyle(fontSize: 9)),
             ),
             Tab(
-              icon: Icon(Icons.looks_3_outlined, size: 18),
-              child: Text('THERD', style: TextStyle(fontSize: 9)),
-            ),
-            Tab(
-              icon: Icon(Icons.looks_4_outlined, size: 18),
-              child: Text('FOUR', style: TextStyle(fontSize: 9)),
+              icon: Icon(Icons.account_box_rounded, size: 18),
+              child: Text('설정', style: TextStyle(fontSize: 9)),
             )
           ],
         ),

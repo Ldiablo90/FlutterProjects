@@ -20,7 +20,6 @@ class _FirstPageState extends State<FirstPage> {
               child: Text('FIRST PAGE',style: TextStyle(fontSize: 20)),
             ),
           ),
-
           Container(
             child: Column(
               children: <Widget>[
