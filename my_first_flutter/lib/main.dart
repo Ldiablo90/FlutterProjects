@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_flutter/screen/firstpage.dart';
 import 'package:my_first_flutter/screen/secondpage.dart';
-import 'package:my_first_flutter/screen/therdpage.dart';
+import 'package:my_first_flutter/screen/thirdpage.dart';
 import 'package:my_first_flutter/widget/bottom_bar.dart';
 
 void main() => runApp(MyApp());
